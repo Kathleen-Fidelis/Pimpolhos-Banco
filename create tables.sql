@@ -14,24 +14,37 @@ create table fornecedor
 )
 ;
 
+create table marca
+(
+	cod_marca smallint not null auto_increment,
+	nome_marca varchar(20) not null,
+	primary key (cod_marca)
+)
+;
+
 create table produto
 (
 	cod_produto smallint not null auto_increment,
 	nome varchar(100) not null,
 	preco decimal(7, 2) not null,
-	marca varchar(20) not null,
+	-- marca varchar(20) not null,
 	sexo varchar(20) null,
 	dimensao varchar(20) null,
 	material varchar(50) not null,
-	peso decimal(7, 2) not null,
+	peso decimal(7, 3) not null,
 	conteudo_produto varchar(255) not null,
 	cod_fornecedor tinyint not null,
 	cod_categoria tinyint not null,
+	img_produto varchar(255) not null,
+	cod_marca smallint not null,
 	primary key (cod_produto),
 	foreign key (cod_fornecedor) references fornecedor (cod_fornecedor),
-	foreign key (cod_categoria) references categoria (cod_categoria)
+	foreign key (cod_categoria) references categoria (cod_categoria),
+	foreign key (cod_marca) references marca (cod_marca)
 )
 ;
+
+
 
 create table estoque
 (
@@ -50,7 +63,9 @@ create table cliente
   data_nasc DATE not null,
   email varchar(50) not null,
   senha varchar(15) not null,
-  primary key (cod_cliente)
+  primary key (cod_cliente), 
+  unique (email),
+  unique (cpf)
 );
 
 create table tipo_telefone 
@@ -290,7 +305,7 @@ create table nf_e
 (
 	cod_nf int not null auto_increment,
 	cod_pedido smallint not null,
-	numero_nf int not null,
+	numero_nf bigint not null,
 	chave_acesso varchar(44) not null,
 	data_emissao date not null,
 	valor_total_nf decimal(7,2)  not null,
@@ -312,7 +327,7 @@ create table nf_e
 );
 
 
-alter table nf_e modify numero_nf bigint not null;
+-- alter table nf_e modify numero_nf bigint not null;
 
 
 

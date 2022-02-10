@@ -5,6 +5,7 @@ drop table nf_e;
 drop table item_nf;
 drop table estoque;
 drop table produto;
+drop table marca;
 drop table categoria;
 drop table fornecedor;
 drop table cliente_telefone;

@@ -6,78 +6,81 @@ insert into categoria (nome_categoria) values ('Acessório');
 -- FORNECEDOR
 insert into fornecedor (nome_fornecedor) values ('Dollbaby');
 
+-- MARCA
+insert into marca (nome_marca) values ('Pimpolhos');
+
 -- PRODUTO
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Emilly', 619.00, 'Pimpolhos', 'menina', '60x30 cm','silicone', 1.599, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Emilly', 619.00, 'menina', '60x30 cm','silicone', 1.599, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2, 'img1', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Bruna', 499.00, 'Pimpolhos', 'menina', '60x30 cm','silicone', 1.450, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Bruna', 499.00, 'menina', '60x30 cm','silicone', 1.450, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2, 'img2', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Bianca', 599.00, 'Pimpolhos', 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Bianca', 599.00, 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2, 'img3', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Alice', 659.00, 'Pimpolhos', 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Alice', 659.00, 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2, 'img4', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Mayara', 799.00, 'Pimpolhos', 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Mayara', 799.00, 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2, 'img5', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Renata', 659.00, 'Pimpolhos', 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Renata', 659.00, 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2, 'img6', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Joelma', 619.00, 'Pimpolhos', 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Joelma', 619.00, 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2, 'img7', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Camila', 459.00, 'Pimpolhos', 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Camila', 459.00, 'menina', '55x30 cm','silicone', 1.650, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 2, 'img8', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Miguel', 619.00, 'Pimpolhos', 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Miguel', 619.00, 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1, 'img9', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Arthur', 549.00, 'Pimpolhos', 'menino', '55x30 cm','silicone', 1.500, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Arthur', 549.00, 'menino', '55x30 cm','silicone', 1.500, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1, 'img10', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Felipe', 599.00, 'Pimpolhos', 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Felipe', 599.00, 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1, 'img11', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Heitor', 659.00, 'Pimpolhos', 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Heitor', 659.00, 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1, 'img12', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Rafael', 799.00, 'Pimpolhos', 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Rafael', 799.00, 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1, 'img13', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Thiago', 659.00, 'Pimpolhos', 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Thiago', 659.00, 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1, 'img14', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Daniel', 619.00, 'Pimpolhos', 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Daniel', 619.00, 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1, 'img15', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Bebe Reborn Samuel', 459.00, 'Pimpolhos', 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Bebe Reborn Samuel', 459.00, 'menino', '65x30 cm','silicone', 1.850, 'Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento', 1, 1, 'img16', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Chupeta Rosa Simples', 29.00, 'Pimpolhos', null, '5x10 cm','silicone', 0.050, 'Chupeta Rosa Simples', 1, 3);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Chupeta Rosa Simples', 29.00, null, '5x10 cm','silicone', 0.050, 'Chupeta Rosa Simples', 1, 3, 'img17', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Chupeta Rosa Ursinho', 39.00, 'Pimpolhos', null, '5x10 cm','silicone', 0.060, 'Chupeta Rosa Ursinho', 1, 3);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Chupeta Rosa Ursinho', 39.00, null, '5x10 cm','silicone', 0.060, 'Chupeta Rosa Ursinho', 1, 3, 'img18', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Vestido Tule Rosa', 79.00, 'Pimpolhos', null, '40x20 cm','algodão', 0.100, 'Vestido Tule Rosa', 1, 3);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Vestido Tule Rosa', 79.00, null, '40x20 cm','algodão', 0.100, 'Vestido Tule Rosa', 1, 3, 'img19', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Vestido De Unicórnio', 99.00, 'Pimpolhos', null, '40x20 cm','algodão', 0.100, 'Vestido De Unicórnio', 1, 3);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Vestido De Unicórnio', 99.00, null, '40x20 cm','algodão', 0.100, 'Vestido De Unicórnio', 1, 3, 'img20', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Conjunto De Roupa Macaquinho', 129.00, 'Pimpolhos', null, '40x20 cm','algodão', 0.100, 'Conjunto De Roupa Macaquinho', 1, 3);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Conjunto De Roupa Macaquinho', 129.00, null, '40x20 cm','algodão', 0.100, 'Conjunto De Roupa Macaquinho', 1, 3, 'img21', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Conjunto Jacaré', 149.00, 'Pimpolhos', null, '40x20 cm','algodão', 0.100, 'Conjunto Jacaré', 1, 3);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Conjunto Jacaré', 149.00, null, '40x20 cm','algodão', 0.100, 'Conjunto Jacaré', 1, 3, 'img22', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Conjunto Vermelho Florido', 219.00, 'Pimpolhos', null, '40x20 cm','algodão', 0.100, 'Conjunto Vermelho Florido', 1, 3);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Conjunto Vermelho Florido', 219.00, null, '40x20 cm','algodão', 0.100, 'Conjunto Vermelho Florido', 1, 3, 'img23', 1);
 
-insert into produto (nome, preco, marca, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria)
-values ('Conjunto De Coelhinha', 159.00, 'Pimpolhos', null, '40x20 cm','algodão', 0.100, 'Conjunto De Coelhinha', 1, 3);
+insert into produto (nome, preco, sexo, dimensao, material, peso, conteudo_produto, cod_fornecedor, cod_categoria, img_produto, cod_marca)
+values ('Conjunto De Coelhinha', 159.00, null, '40x20 cm','algodão', 0.100, 'Conjunto De Coelhinha', 1, 3, 'img24', 1);
 
 -- ESTOQUE
 insert into estoque (cod_produto, quantidade) values(1, 20);
@@ -227,7 +230,7 @@ insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
 values ('Levi João Felipe Melo da Cunha','85766346000', '1992-03-22','ljfmcunha@gmail.com','MEnGAZEintIc');
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Ivo Arouca Parente','09681826078', '1960-10-25','MatildeSantosCunha@gmail.com','AIsHALYPoeSM');
+values ('Ivo Arouca Parente','09681826078', '1960-10-25','ivo@gmail.com','AIsHALYPoeSM');
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
 values ('Fernanda Damasceno Torres','62777859078', '1975-05-08','torresnanda67@gmail.com','ToUrKBorYsEo');
@@ -236,7 +239,8 @@ insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
 values ('Danilo Almeida Lima','13421155038', '1997-02-02','danAlmeida@outlook.com','AmblERpHYsto');
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Renato Schneider Sanches','70564247081', '1947-09-3','MatildeSantosCunha@gmail.com','aira5AhGhohS');
+values ('Renato Schneider Sanches','70564357081', '1947-09-3','renato@gmail.com','aira5AhGhohS');
+
 
 -- ESTADO
 insert into estado (descricao) values ('AL');
@@ -930,3 +934,9 @@ valor_icms_total,cod_produto,cod_item_nota,cod_natureza_operacao,cnpj_pimpolhos,
 values
 (7,1046789942, '8642319845318961231242489443418642318563518', '2021-11-17', 499.90, 499.90, 000027, 0.00, '675.494.070.942', 39.90, 
 9, 9, 2, '83986043000115','Pimpolhos');
+
+select * from produto;
+select * from cliente;
+select * from nf_e;
+select * from item_nf;
+select * from pedido;
