@@ -231,6 +231,8 @@ create table pix
 	foreign key (cod_forma_pagamento) references tipo_pagamento (cod_forma_pagamento)
 );
 
+ 
+
 create table pedido
 (
 	cod_pedido smallint not null auto_increment,
@@ -240,6 +242,7 @@ create table pedido
 	cod_status smallint not null,
 	cod_operacao smallint not null,
 	cod_forma_pagamento tinyint not null,
+	-- cod_item_pedido smallint not null,
 	primary key (cod_pedido),
 	foreign key (cod_frete) references frete (cod_frete),
 	foreign key (cod_endereco) references endereco_cliente (cod_endereco),
@@ -247,17 +250,21 @@ create table pedido
 	foreign key (cod_status) references status_pedido (cod_status),
 	foreign key (cod_operacao) references tipo_pagamento (cod_operacao),
 	foreign key (cod_forma_pagamento) references tipo_pagamento (cod_forma_pagamento)
+	-- foreign key (cod_item_pedido) references item_pedido (cod_item_pedido)
 );
+
 
 create table item_pedido
 (
+	-- cod_item_pedido smallint not null auto_increment,
 	cod_pedido  smallint not null,
 	cod_produto smallint not null,
 	quantidade  tinyint  not null,
 	primary key (cod_pedido, cod_produto),
-	foreign key (cod_pedido) references  pedido(cod_pedido),
+	foreign key (cod_pedido) references pedido(cod_pedido),
 	foreign key (cod_produto) references produto(cod_produto)
-); 
+	
+);
 
 create table pedido_avaliacao
 (

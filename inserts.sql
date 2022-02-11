@@ -713,6 +713,14 @@ insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operac
 insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (2, 2, 10, 3, 30, 3);
 
 
+
+-- insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, cod_item_pedido) values (2, 2, 10, 3, 30, 3, 1);
+-- insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, cod_item_pedido) values (2, 3, 2, 3, 30, 3, 2);
+
+-- ITEM PEDIDO
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (1, 1, 2);
+
+
 -- DESTAQUES
 insert into destaques (cod_destaques, cod_pedido) values (1, 2);
 insert into destaques (cod_destaques, cod_pedido) values (2, 3);
@@ -935,8 +943,55 @@ values
 (7,1046789942, '8642319845318961231242489443418642318563518', '2021-11-17', 499.90, 499.90, 000027, 0.00, '675.494.070.942', 39.90, 
 9, 9, 2, '83986043000115','Pimpolhos');
 
+
+
+
+
+
+
 select * from produto;
 select * from cliente;
 select * from nf_e;
 select * from item_nf;
 select * from pedido;
+
+
+
+select * from item_pedido;
+select cod_produto from item_pedido where cod_produto = 1;
+
+
+
+select item_pedido.cod_produto, produto.nome, produto.preco, item_pedido.quantidade from item_pedido
+inner join pedido on pedido.cod_pedido = item_pedido.cod_pedido 
+inner join produto on produto.cod_produto = item_pedido.cod_produto;
+
+select pedido.cod_pedido, f.descricao, f.valor_frete, sp.descricao, fp.descricao, ec.cod_cliente, c.nome_cliente, ec2.cod_endereco, e.nome_cidade, e.cep, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e.cod_estado, e2.descricao from pedido 
+inner join frete f on f.cod_frete = pedido.cod_frete 
+inner join status_pedido sp on sp.cod_status = pedido.cod_status 
+inner join tipo_pagamento tp on tp.cod_forma_pagamento = pedido.cod_forma_pagamento 
+inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento
+inner join endereco_cliente ec on ec.cod_cliente = pedido.cod_cliente
+inner join cliente c on c.cod_cliente = pedido.cod_cliente
+inner join endereco_cliente ec2 on ec2.cod_endereco = pedido.cod_endereco
+inner join endereco e on e.cod_endereco = pedido.cod_endereco
+inner join estado e2 on e2.cod_estado = e.cod_estado;
+
+
+select pedido.cod_pedido, c.nome_cliente, e.cep, e.nome_cidade, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao, f.descricao, f.valor_frete, fp.descricao, sp.descricao from pedido
+inner join cliente c on c.cod_cliente = pedido.cod_cliente
+inner join endereco e on e.cod_endereco = pedido.cod_endereco
+inner join estado e2 on e2.cod_estado = e.cod_estado
+inner join frete f on f.cod_frete = pedido.cod_frete 
+inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento
+inner join status_pedido sp on sp.cod_status = pedido.cod_status;
+
+
+
+select * from pedido;
+select * from item_pedido ip;
+select * from frete;
+
+select descricao from frete;
+
+
