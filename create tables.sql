@@ -120,6 +120,7 @@ create table endereco_cliente
 (
 	cod_endereco smallint not null, 
 	cod_cliente smallint not null, 
+	flag_endereco boolean not null,
 	primary key (cod_endereco, cod_cliente),  
 	foreign key (cod_endereco) references endereco (cod_endereco), 
 	foreign key (cod_cliente) references cliente (cod_cliente)

@@ -628,29 +628,29 @@ insert into tipo_telefone (descricao_telefone) values ('tel');
 insert into tipo_telefone (descricao_telefone) values ('cel');
 
 -- ENDERECO CLIENTE
-insert into endereco_cliente (cod_cliente,cod_endereco) values(1,1);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(2,2);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(3,3);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(4,4);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(5,5);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(6,6);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(7,7);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(8,8);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(9,9);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(10,10);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(10,11);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(1,1,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(2,2,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(3,3,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(4,4,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(5,5,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(6,6,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(7,7,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(8,8,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(9,9,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(10,10,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(10,11,0);
 
-insert into endereco_cliente (cod_cliente,cod_endereco) values(1,2);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(2,3);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(3,4);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(4,5);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(5,6);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(6,7);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(7,8);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(8,9);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(9,10);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(10,12);
-insert into endereco_cliente (cod_cliente,cod_endereco) values(10,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(1,2,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(2,3,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(3,4,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(4,5,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(5,6,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(6,7,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(7,8,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(8,9,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(9,10,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(10,12,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(10,1,0);
 
 
 -- NATUREZA OPERACAO
@@ -719,6 +719,29 @@ insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operac
 
 -- ITEM PEDIDO
 insert into item_pedido (cod_pedido, cod_produto, quantidade) values (1, 1, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (2, 2, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (3, 3, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (4, 4, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (5, 5, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (6, 6, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (7, 7, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (8, 8, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (9, 9, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (10, 10, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (11, 11, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (12, 12, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (13, 13, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (14, 14, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (15, 15, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (16, 16, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (17, 17, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (18, 18, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (19, 19, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (20, 20, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (21, 21, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (22, 22, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (23, 23, 2);
+insert into item_pedido (cod_pedido, cod_produto, quantidade) values (24, 24, 2);
 
 
 -- DESTAQUES
@@ -954,6 +977,7 @@ select * from cliente;
 select * from nf_e;
 select * from item_nf;
 select * from pedido;
+select * from endereco_cliente;
 
 
 
@@ -962,9 +986,7 @@ select cod_produto from item_pedido where cod_produto = 1;
 
 
 
-select item_pedido.cod_produto, produto.nome, produto.preco, item_pedido.quantidade from item_pedido
-inner join pedido on pedido.cod_pedido = item_pedido.cod_pedido 
-inner join produto on produto.cod_produto = item_pedido.cod_produto;
+
 
 select pedido.cod_pedido, f.descricao, f.valor_frete, sp.descricao, fp.descricao, ec.cod_cliente, c.nome_cliente, ec2.cod_endereco, e.nome_cidade, e.cep, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e.cod_estado, e2.descricao from pedido 
 inner join frete f on f.cod_frete = pedido.cod_frete 
@@ -978,20 +1000,53 @@ inner join endereco e on e.cod_endereco = pedido.cod_endereco
 inner join estado e2 on e2.cod_estado = e.cod_estado;
 
 
-select pedido.cod_pedido, c.nome_cliente, e.cep, e.nome_cidade, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao, f.descricao, f.valor_frete, fp.descricao, sp.descricao from pedido
+select item_pedido.cod_produto, produto.nome, produto.preco, item_pedido.quantidade from item_pedido
+inner join pedido on pedido.cod_pedido = item_pedido.cod_pedido 
+inner join produto on produto.cod_produto = item_pedido.cod_produto; 
+
+select pedido.cod_pedido, c.nome_cliente, e.cep, e.nome_cidade, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao, f.descricao, f.valor_frete, fp.descricao, sp.descricao, ec.flag_endereco from pedido
 inner join cliente c on c.cod_cliente = pedido.cod_cliente
 inner join endereco e on e.cod_endereco = pedido.cod_endereco
 inner join estado e2 on e2.cod_estado = e.cod_estado
 inner join frete f on f.cod_frete = pedido.cod_frete 
 inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento
-inner join status_pedido sp on sp.cod_status = pedido.cod_status;
+inner join status_pedido sp on sp.cod_status = pedido.cod_status 
+inner join endereco_cliente ec on ec.cod_endereco = e.cod_endereco where ec.flag_endereco = 1;
 
+
+select item_pedido.cod_produto, produto.nome, produto.preco, item_pedido.quantidade, null, null, null, null, null, null, null, null, null, null, null from item_pedido
+inner join pedido on pedido.cod_pedido = item_pedido.cod_pedido 
+inner join produto on produto.cod_produto = item_pedido.cod_produto union all
+select pedido.cod_pedido, c.nome_cliente, e.cep, e.nome_cidade, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao, f.descricao, f.valor_frete, fp.descricao, sp.descricao, ec.flag_endereco from pedido
+inner join cliente c on c.cod_cliente = pedido.cod_cliente
+inner join endereco e on e.cod_endereco = pedido.cod_endereco
+inner join estado e2 on e2.cod_estado = e.cod_estado
+inner join frete f on f.cod_frete = pedido.cod_frete 
+inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento
+inner join status_pedido sp on sp.cod_status = pedido.cod_status 
+inner join endereco_cliente ec on ec.cod_endereco = e.cod_endereco where ec.flag_endereco = 1;
+
+
+select ip.cod_produto, p2.nome, p2.preco, ip.quantidade, p.cod_pedido, c.nome_cliente, e.cep, e.nome_cidade, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao, f.descricao, f.valor_frete, fp.descricao, sp.descricao, ec.flag_endereco from pedido
+inner join item_pedido ip on ip.cod_produto = produto.cod_produto 
+inner join pedido p on p.cod_pedido = ip.cod_pedido 
+inner join produto p2 on p2.cod_produto = ip.cod_produto
+inner join cliente c on c.cod_cliente = pedido.cod_cliente
+inner join endereco e on e.cod_endereco = pedido.cod_endereco
+inner join estado e2 on e2.cod_estado = e.cod_estado
+inner join frete f on f.cod_frete = pedido.cod_frete 
+inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento
+inner join status_pedido sp on sp.cod_status = pedido.cod_status
+inner join endereco_cliente ec on ec.cod_endereco = e.cod_endereco where ec.flag_endereco = 1;
 
 
 select * from pedido;
 select * from item_pedido ip;
 select * from frete;
+select * from produto;
 
 select descricao from frete;
+
+delete from pedido where cod_pedido = 1;
 
 
