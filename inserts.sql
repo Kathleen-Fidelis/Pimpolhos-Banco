@@ -243,33 +243,33 @@ values ('Renato Schneider Sanches','70564357081', '1947-09-3','renato@gmail.com'
 
 
 -- ESTADO
-insert into estado (descricao) values ('AL');
-insert into estado (descricao) values ('AM');
-insert into estado (descricao) values ('AP');
-insert into estado (descricao) values ('BA');
-insert into estado (descricao) values ('CE');
-insert into estado (descricao) values ('DF');
-insert into estado (descricao) values ('ES');
-insert into estado (descricao) values ('GO');
-insert into estado (descricao) values ('MA');
-insert into estado (descricao) values ('MG');
-insert into estado (descricao) values ('MS');
-insert into estado (descricao) values ('MT');
-insert into estado (descricao) values ('PA');
-insert into estado (descricao) values ('PB');
-insert into estado (descricao) values ('PE');
-insert into estado (descricao) values ('PI');
-insert into estado (descricao) values ('PR');
-insert into estado (descricao) values ('RJ');
-insert into estado (descricao) values ('RN');
-insert into estado (descricao) values ('RO');
-insert into estado (descricao) values ('RR');
-insert into estado (descricao) values ('RS');
-insert into estado (descricao) values ('SC');
-insert into estado (descricao) values ('SE');
-insert into estado (descricao) values ('SP');
-insert into estado (descricao) values ('TO');
-insert into estado (descricao) values ('AC');
+insert into estado (descricao_estado) values ('AL');
+insert into estado (descricao_estado) values ('AM');
+insert into estado (descricao_estado) values ('AP');
+insert into estado (descricao_estado) values ('BA');
+insert into estado (descricao_estado) values ('CE');
+insert into estado (descricao_estado) values ('DF');
+insert into estado (descricao_estado) values ('ES');
+insert into estado (descricao_estado) values ('GO');
+insert into estado (descricao_estado) values ('MA');
+insert into estado (descricao_estado) values ('MG');
+insert into estado (descricao_estado) values ('MS');
+insert into estado (descricao_estado) values ('MT');
+insert into estado (descricao_estado) values ('PA');
+insert into estado (descricao_estado) values ('PB');
+insert into estado (descricao_estado) values ('PE');
+insert into estado (descricao_estado) values ('PI');
+insert into estado (descricao_estado) values ('PR');
+insert into estado (descricao_estado) values ('RJ');
+insert into estado (descricao_estado) values ('RN');
+insert into estado (descricao_estado) values ('RO');
+insert into estado (descricao_estado) values ('RR');
+insert into estado (descricao_estado) values ('RS');
+insert into estado (descricao_estado) values ('SC');
+insert into estado (descricao_estado) values ('SE');
+insert into estado (descricao_estado) values ('SP');
+insert into estado (descricao_estado) values ('TO');
+insert into estado (descricao_estado) values ('AC');
 
 -- ENDERECO
 insert into endereco (nome_cidade, cep, nome_rua, numero_casa, complemento, bairro, ponto_referencia, cod_estado)
@@ -386,11 +386,11 @@ insert into endereco(nome_cidade,cep,nome_rua,numero_casa,complemento,bairro,pon
 values ('Campinas','13054630','Rua Orlando Santarelli','975','Casa 2','Dic VI (Conjunto Habitacional Santo Dias Silva)','Prox a praça de esportes Emil Rached','25');
 
 -- FORMA PAGAMENTO
-insert into forma_pagamento(descricao)
+insert into forma_pagamento(descricao_forma_pagamento)
 values ('Boleto');
-insert into forma_pagamento(descricao)
+insert into forma_pagamento(descricao_forma_pagamento)
 values ('Pix');
-insert into forma_pagamento(descricao)
+insert into forma_pagamento(descricao_forma_pagamento)
 values ('Cartão');
 
 -- TIPO PAGAMENTO
@@ -535,11 +535,11 @@ values('2');
 
 
 -- BANDEIRA
-insert into  bandeira(descricao) 
+insert into  bandeira(descricao_bandeira) 
 values ('MasterCard');
-insert into bandeira (descricao) 
+insert into bandeira (descricao_bandeira) 
 values ('Visa');
-insert into bandeira (descricao) 
+insert into bandeira (descricao_bandeira) 
 values ('American Express');
 
 -- CARTAO
@@ -613,15 +613,15 @@ values (20, 2, 'rzN7XIvTS4DCfcf');
 
 
 -- STATUS PEDIDO
-insert into status_pedido (cod_status, descricao) values (1, 'Processando pagamento');
-insert into status_pedido (cod_status, descricao) values (2, 'Em separação');
-insert into status_pedido (cod_status, descricao) values (3, 'A caminho');
-insert into status_pedido (cod_status, descricao) values (4, 'Concluído');
-insert into status_pedido (cod_status, descricao) values (5, 'Cancelado');
+insert into status_pedido (cod_status, descricao_status_pedido) values (1, 'Processando pagamento');
+insert into status_pedido (cod_status, descricao_status_pedido) values (2, 'Em separação');
+insert into status_pedido (cod_status, descricao_status_pedido) values (3, 'A caminho');
+insert into status_pedido (cod_status, descricao_status_pedido) values (4, 'Concluído');
+insert into status_pedido (cod_status, descricao_status_pedido) values (5, 'Cancelado');
 
 -- frete
-insert into frete (cod_frete , descricao , valor_frete) values (1 , 'Express até 5 dias', 25);
-insert into frete (cod_frete , descricao , valor_frete) values (2 , 'Normal até 9 dias', 15.90);
+insert into frete (cod_frete , descricao_frete , valor_frete) values (1 , 'Express até 5 dias', 25);
+insert into frete (cod_frete , descricao_frete , valor_frete) values (2 , 'Normal até 9 dias', 15.90);
 
 -- tipo_telefone
 insert into tipo_telefone (descricao_telefone) values ('tel');
@@ -654,17 +654,17 @@ insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(10,
 
 
 -- NATUREZA OPERACAO
-insert into natureza_operacao (cod_natureza_operacao , descricao) values (1 , 'Entrada');
-insert into natureza_operacao (cod_natureza_operacao , descricao) values (2 , 'Saida');
-insert into natureza_operacao (cod_natureza_operacao , descricao) values (3 , 'Devolução');
+insert into natureza_operacao (cod_natureza_operacao , descricao_natureza_operacao) values (1 , 'Entrada');
+insert into natureza_operacao (cod_natureza_operacao , descricao_natureza_operacao) values (2 , 'Saida');
+insert into natureza_operacao (cod_natureza_operacao , descricao_natureza_operacao) values (3 , 'Devolução');
 
 
 -- PESQUISA SATISFACAO
-insert into pesquisa_satisfacao (cod_pesquisa, descricao) values (1, 'Muito satisfeito');
-insert into pesquisa_satisfacao (cod_pesquisa, descricao) values (2, 'Satisfeito');
-insert into pesquisa_satisfacao (cod_pesquisa, descricao) values (3, 'Indiferente');
-insert into pesquisa_satisfacao (cod_pesquisa, descricao) values (4, 'Insatisfeito');
-insert into pesquisa_satisfacao (cod_pesquisa, descricao) values (5, 'Muito insatisfeito');
+insert into pesquisa_satisfacao (cod_pesquisa, descricao_pesquisa_satisfacao) values (1, 'Muito satisfeito');
+insert into pesquisa_satisfacao (cod_pesquisa, descricao_pesquisa_satisfacao) values (2, 'Satisfeito');
+insert into pesquisa_satisfacao (cod_pesquisa, descricao_pesquisa_satisfacao) values (3, 'Indiferente');
+insert into pesquisa_satisfacao (cod_pesquisa, descricao_pesquisa_satisfacao) values (4, 'Insatisfeito');
+insert into pesquisa_satisfacao (cod_pesquisa, descricao_pesquisa_satisfacao) values (5, 'Muito insatisfeito');
 
 
 -- PRODUTOS RELACIONADOS 
@@ -988,30 +988,19 @@ select cod_produto from item_pedido where cod_produto = 1;
 
 
 
-select pedido.cod_pedido, f.descricao, f.valor_frete, sp.descricao, fp.descricao, ec.cod_cliente, c.nome_cliente, ec2.cod_endereco, e.nome_cidade, e.cep, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e.cod_estado, e2.descricao from pedido 
-inner join frete f on f.cod_frete = pedido.cod_frete 
-inner join status_pedido sp on sp.cod_status = pedido.cod_status 
-inner join tipo_pagamento tp on tp.cod_forma_pagamento = pedido.cod_forma_pagamento 
-inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento
-inner join endereco_cliente ec on ec.cod_cliente = pedido.cod_cliente
-inner join cliente c on c.cod_cliente = pedido.cod_cliente
-inner join endereco_cliente ec2 on ec2.cod_endereco = pedido.cod_endereco
-inner join endereco e on e.cod_endereco = pedido.cod_endereco
-inner join estado e2 on e2.cod_estado = e.cod_estado;
-
-
 select item_pedido.cod_produto, produto.nome, produto.preco, item_pedido.quantidade from item_pedido
 inner join pedido on pedido.cod_pedido = item_pedido.cod_pedido 
 inner join produto on produto.cod_produto = item_pedido.cod_produto; 
 
-select pedido.cod_pedido, c.nome_cliente, e.cep, e.nome_cidade, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao, f.descricao, f.valor_frete, fp.descricao, sp.descricao, ec.flag_endereco from pedido
+select pedido.cod_pedido, c.nome_cliente, e.cep, e.nome_cidade, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao_estado, f.descricao_frete, f.valor_frete, fp.descricao_forma_pagamento, sp.descricao_status_pedido, ec.flag_endereco from pedido
 inner join cliente c on c.cod_cliente = pedido.cod_cliente
 inner join endereco e on e.cod_endereco = pedido.cod_endereco
 inner join estado e2 on e2.cod_estado = e.cod_estado
 inner join frete f on f.cod_frete = pedido.cod_frete 
 inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento
 inner join status_pedido sp on sp.cod_status = pedido.cod_status 
-inner join endereco_cliente ec on ec.cod_endereco = e.cod_endereco where ec.flag_endereco = 1;
+inner join endereco_cliente ec on ec.cod_endereco = e.cod_endereco where ec.flag_endereco = 1 ORDER BY cod_pedido ASC
+;
 
 
 select item_pedido.cod_produto, produto.nome, produto.preco, item_pedido.quantidade, null, null, null, null, null, null, null, null, null, null, null from item_pedido
@@ -1038,6 +1027,7 @@ inner join frete f on f.cod_frete = pedido.cod_frete
 inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento
 inner join status_pedido sp on sp.cod_status = pedido.cod_status
 inner join endereco_cliente ec on ec.cod_endereco = e.cod_endereco where ec.flag_endereco = 1;
+
 
 
 select * from pedido;

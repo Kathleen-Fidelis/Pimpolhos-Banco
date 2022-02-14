@@ -97,7 +97,7 @@ create table cliente_telefone
 create table estado
 (
 	cod_estado tinyint not null auto_increment, 
-	descricao varchar(2) not null, 
+	descricao_estado varchar(2) not null, 
 	primary key (cod_estado)
 );
 
@@ -146,14 +146,14 @@ create table produtos_relacionados
 create table status_pedido 
 (
 	cod_status smallint not null,
-	descricao  varchar(30) not null,
+	descricao_status_pedido  varchar(30) not null,
 	primary key (cod_status)
 );
 
 create table frete
 (
 	cod_frete tinyint not null auto_increment,
-	descricao varchar(20) not null,
+	descricao_frete varchar(20) not null,
 	valor_frete	decimal(5,2) not null,
 	primary key (cod_frete)
 );
@@ -161,14 +161,14 @@ create table frete
 create table pesquisa_satisfacao
 (
 	cod_pesquisa tinyint not null auto_increment,
-	descricao varchar(20)not null,
+	descricao_pesquisa_satisfacao varchar(20)not null,
 	primary key (cod_pesquisa)
 );
 
 create table forma_pagamento
 (
 	cod_forma_pagamento tinyint not null auto_increment, 
-	descricao varchar(10) not null, 
+	descricao_forma_pagamento varchar(10) not null, 
 	primary key (cod_forma_pagamento)
 );
 
@@ -183,7 +183,7 @@ create table tipo_pagamento
 create table bandeira
 (
 	cod_bandeira tinyint not null auto_increment,
-	descricao varchar(20) not null,
+	descricao_bandeira varchar(20) not null,
 	primary key (cod_bandeira)
 )
 ;
@@ -290,7 +290,7 @@ create table destaques
 create table natureza_operacao 
 (
 	cod_natureza_operacao tinyint not null,
-	descricao varchar(20) not null,
+	descricao_natureza_operacao varchar(20) not null,
 	primary key (cod_natureza_operacao)
 
 );
