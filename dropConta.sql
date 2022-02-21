@@ -1,10 +1,10 @@
 drop table favoritos; 
 drop table produtos_relacionados;
-drop table item_pedido;
-drop table nf_e;
 drop table pedido_avaliacao;
 drop table destaques;
+drop table nf_e;
 drop table pedido;
+drop table item_pedido;
 drop table item_nf;
 drop table estoque;
 drop table produto;
@@ -28,5 +28,6 @@ drop table pesquisa_satisfacao;
 drop table status_pedido;
 drop table tipo_telefone;
 drop table natureza_operacao;
+drop table login;
 
 show tables;

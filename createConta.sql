@@ -62,7 +62,7 @@ create table cliente
   cpf varchar(11) not null,
   data_nasc DATE not null,
   email varchar(50) not null,
-  senha varchar(15) not null,
+  senha varchar(50) not null,
   primary key (cod_cliente), 
   unique (email),
   unique (cpf)
@@ -233,6 +233,20 @@ create table pix
 );
 
  
+create table item_pedido
+(
+	cod_item_pedido smallint not null,
+	-- cod_pedido  smallint not null,
+	cod_produto smallint not null,
+	quantidade  tinyint  not null,
+	-- valor_unitario decimal(7, 2) not null,
+	-- valor_total decimal(7, 2) not null,
+	primary key (cod_item_pedido, cod_produto),
+	-- foreign key (cod_pedido) references pedido(cod_pedido),
+	foreign key (cod_produto) references produto(cod_produto)
+	
+);
+
 
 create table pedido
 (
@@ -243,29 +257,21 @@ create table pedido
 	cod_status smallint not null,
 	cod_operacao smallint not null,
 	cod_forma_pagamento tinyint not null,
-	-- cod_item_pedido smallint not null,
+	-- valor_total decimal(7, 2) not null,
+	data_pedido date not null,
+	cod_item_pedido smallint not null,
 	primary key (cod_pedido),
 	foreign key (cod_frete) references frete (cod_frete),
 	foreign key (cod_endereco) references endereco_cliente (cod_endereco),
 	foreign key (cod_cliente) references endereco_cliente (cod_cliente),
 	foreign key (cod_status) references status_pedido (cod_status),
 	foreign key (cod_operacao) references tipo_pagamento (cod_operacao),
-	foreign key (cod_forma_pagamento) references tipo_pagamento (cod_forma_pagamento)
-	-- foreign key (cod_item_pedido) references item_pedido (cod_item_pedido)
+	foreign key (cod_forma_pagamento) references tipo_pagamento (cod_forma_pagamento),
+	foreign key (cod_item_pedido) references item_pedido (cod_item_pedido)
 );
 
 
-create table item_pedido
-(
-	-- cod_item_pedido smallint not null auto_increment,
-	cod_pedido  smallint not null,
-	cod_produto smallint not null,
-	quantidade  tinyint  not null,
-	primary key (cod_pedido, cod_produto),
-	foreign key (cod_pedido) references pedido(cod_pedido),
-	foreign key (cod_produto) references produto(cod_produto)
-	
-);
+
 
 create table pedido_avaliacao
 (
@@ -335,8 +341,12 @@ create table nf_e
 );
 
 
--- alter table nf_e modify numero_nf bigint not null;
-
+create table login
+(
+	usuario varchar(45) not null,
+	senha varchar(20) not null,
+	primary key (usuario)
+);
 
 
 show tables;

@@ -122,124 +122,124 @@ insert into produtos_relacionados (cod_produto) values (10);
 
 -- CLIENTE
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha) 
-values ('Maria Silva', '79487888080', '1997-01-24', 'mariasilva@gmail.com', 'ch%&tw@jy');
+values ('Maria Silva', '79487888080', '1997-01-24', 'mariasilva@gmail.com', MD5('ch%&tw@jy'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha) 
-values ('Joao Souza', '00760659010', '1987-05-23', 'joaosouza@gmail.com', 'kte&#koen');
+values (' Souza', '00760659010', '1987-05-23', 'joaosoduza@gmail.com', MD5('kte&#koen'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha) 
-values ('Tereza Batista', '84783947023', '2000-09-22', 'terezabatista@gmail.com', 'qutl&%da#');
+values ('Tereza Batista', '84783947023', '2000-09-22', 'terezabatista@gmail.com', MD5('qutl&%da#'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha) 
-values ('Ana Carolina', '21189301008', '1997-11-02', 'ana@gmail.com', 'drewrl&%da#');
+values ('Ana Carolina', '21189301008', '1997-11-02', 'ana@gmail.com', MD5('drewrl&%da#'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha) 
-values ('Felipe Melo', '79001884016', '1987-12-01', 'felipeme@gmail.com', 'jgu%jg&#h');
+values ('Felipe Melo', '79001884016', '1987-12-01', 'felipeme@gmail.com', MD5 ('jgu%jg&#h'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha) 
-values ('Jorge Amado', '63271265020', '1998-02-03', 'jorge@gmail.com', 'kdftr@hfkj#');
+values ('Jorge Amado', '63271265020', '1998-02-03', 'jorge@gmail.com',  MD5('kdftr@hfkj#'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha) 
-values ('Amanda Melo', '76144108076', '1990-07-04', 'amanda@gmail.com', 'esle#ue%c@');
+values ('Amanda Melo', '76144108076', '1990-07-04', 'amanda@gmail.com', MD5 ('esle#ue%c@'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha) 
-values ('Felicia Costa', '32678795071', '1999-12-06', 'felicia@gmail.com', 'oap#ner@g%');
+values ('Felicia Costa', '32678795071', '1999-12-06', 'felicia@gmail.com', MD5 ('oap#ner@g%'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha) 
-values ('Camila Ribeiro', '34303111015', '1997-02-07', 'caribeiro@gmail.com', 'bsyt&lwo#');
+values ('Camila Ribeiro', '34303111015', '1997-02-07', 'caribeiro@gmail.com', MD5 ('bsyt&lwo#'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha) 
-values ('Luciano Gonçalves', '45674990000', '2000-05-10', 'lug@hotmail.com', 'latb@kgi6%');
+values ('Luciano Gonçalves', '45674990000', '2000-05-10', 'lug@hotmail.com',  MD5('latb@kgi6%'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Rita Silva', '64849549098', '1990-04-24', 'rita2@gmail.com', 'fdhks6#');
+values ('Rita Silva', '64849549098', '1990-04-24', 'rita2@gmail.com',  MD5 ('fdhks6#'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Joana Camargo', '44845579098', '1997-04-14', 'jocamargo@gmail.com', 'ffdhajag6#');
+values ('Joana Camargo', '44845579098', '1997-04-14', 'jocamargo@gmail.com', MD5 ('ffdhajag6#'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('José Alfredo Lima', '56639544023', '1991-05-15', 'joselima@hotmail.com', 'fd8886#');
+values ('José Alfredo Lima', '56639544023', '1991-05-15', 'joselima@hotmail.com', MD5 ('fd8886#'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Alberto Gonçalves', '23149549074', '1989-01-20', 'alberto@gmail.com', 'fdhk88%');
+values ('Alberto Gonçalves', '23149549074', '1989-01-20', 'alberto@gmail.com',  MD5('fdhk88%'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Henrique Joji', '44446549078', '1997-03-13', 'joji2@gmail.com', 'aaa3#s6#');
+values ('Henrique Joji', '44446549078', '1997-03-13', 'joji2@gmail.com',  MD5('aaa3#s6#'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Camila Oliveira', '33145649498', '1996-04-24', 'cami2@gmail.com', 'ffff%46#');
+values ('Camila Oliveira', '33145649498', '1996-04-24', 'cami2@gmail.com',  MD5('ffff%46#'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Kelly Cristina', '23144549012', '2000-01-24', 'kelly@hotmail.com', 'abcks6#');
+values ('Kelly Cristina', '23144549012', '2000-01-24', 'kelly@hotmail.com',  MD5('abcks6#'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Raphael Milani', '14445549076', '1999-02-27', 'raphami@gmail.com', 'hsgsg6#');
+values ('Raphael Milani', '14445549076', '1999-02-27', 'raphami@gmail.com',  MD5('hsgsg6#'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Maria de Lourdes', '13349554398', '1998-07-14', 'marialo@gmail.com', 'fdddd5');
+values ('Maria de Lourdes', '13349554398', '1998-07-14', 'marialo@gmail.com',  MD5('fdddd5'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Claudia Soyombo', '65546549093', '2001-04-28', 'claudia@gmail.com', '5647#2@');
+values ('Claudia Soyombo', '65546549093', '2001-04-28', 'claudia@gmail.com', MD5 ('5647#2@'));
 
 insert into cliente  (nome_cliente, cpf, data_nasc, email, senha)
-values ('Theo Thomas Mateus Figueiredo', '47006132622', '1941-05-01', 'theothomasmateusfigueiredo-98@campanati.com.br', 'j$PM*uQq5');
+values ('Theo Thomas Mateus Figueiredo', '47006132622', '1941-05-01', 'theothomasmateusfigueiredo-98@campanati.com.br',  MD5('j$PM*uQq5'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Marly Vidal Mota', '61594048061', '1945-08-25', 'marly55@gmail.com', 'wuFkeb@qR');
+values ('Marly Vidal Mota', '61594048061', '1945-08-25', 'marly55@gmail.com',  MD5('wuFkeb@qR'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Ryan Pires Temperini', '14963209055', '1961-03-02', 'rp55@gmail.com', 'dJXgTnE#r');
+values ('Ryan Pires Temperini', '14963209055', '1961-03-02', 'rp55@gmail.com',  MD5('dJXgTnE#r'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Edna Dias Candido', '15830423006', '1981-05-05', 'ednaadias@gmail.com', '$ZwWfEtnw');
+values ('Edna Dias Candido', '15830423006', '1981-05-05', 'ednaadias@gmail.com',  MD5('$ZwWfEtnw'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Emanoel Dores Mozer', '46555804025', '1962-08-09', 'emanoeldores6858@bol.com.br', 'fs&ZFby$^');
+values ('Emanoel Dores Mozer', '46555804025', '1962-08-09', 'emanoeldores6858@bol.com.br',  MD5('fs&ZFby$^'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Débora Barcelos Paiva', '24677517088', '1981-02-23', 'debspaiva@terra.com.br', 'fjABB@F^!');
+values ('Débora Barcelos Paiva', '24677517088', '1981-02-23', 'debspaiva@terra.com.br',  MD5('fjABB@F^!'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Alex Passos Melo', '98032008012', '1961-08-03', 'alexmelo@gmail.com', '^5n#ZECC&');
+values ('Alex Passos Melo', '98032008012', '1961-08-03', 'alexmelo@gmail.com', MD5 ('^5n#ZECC&'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Emmanuel Esteves Prucho', '23255575028', '1931-01-15', 'emep55@hotmail.com', 'MeE6FcqB@');
+values ('Emmanuel Esteves Prucho', '23255575028', '1931-01-15', 'emep55@hotmail.com', MD5 ('MeE6FcqB@'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Ricardo Juan Souza', '28950624044', '1948-09-01', 'ricadinho@gmail.com', '#!k2#Ywp6');
+values ('Ricardo Juan Souza', '28950624044', '1948-09-01', 'ricadinho@gmail.com',  MD5('#!k2#Ywp6'));
 
 insert into cliente (nome_cliente, cpf, data_nasc, email, senha)
-values ('Bernardo Martin Gomes', '95220689347', '1992-01-01', 'bernadmg@hotmail.com', 'gkxEjEgV&');
+values ('Bernardo Martin Gomes', '95220689347', '1992-01-01', 'bernadmg@hotmail.com',  MD5('gkxEjEgV&'));
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Osvaldo Carvalho Melo','61030384053', '1970-12-01','osvaldoc@gmail.com','valdoMelo1');
+values ('Osvaldo Carvalho Melo','61030384053', '1970-12-01','osvaldoc@gmail.com',MD5('valdoMelo1'));
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Nathalia Silva Costa da Silva','91619247097', '1982-01-02','natS@gmail.com','NatSilCo821');
+values ('Nathalia Silva Costa da Silva','91619247097', '1982-01-02','natS@gmail.com',MD5('NatSilCo821'));
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Matilde Santos Cunha','70564247081', '1947-09-23','MatildeSantosCunha@gmail.com','aira5AhGhohS');
+values ('Matilde Santos Cunha','70564247081', '1947-09-23','MatildeSantosCunha@gmail.com',MD5('aira5AhGhohS'));
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Matheus Cunha Pereira','81235972151', '1980-05-15','cunhamaths@hotmail.com','Cho1oole1v');
+values ('Matheus Cunha Pereira','81235972151', '1980-05-15','cunhamaths@hotmail.com',MD5('Cho1oole1v'));
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Eduarda Ferreira Lima','66810572090', '1989-09-21','dudalima45@gmail.com','nFICercLEgan');
+values ('Eduarda Ferreira Lima','66810572090', '1989-09-21','dudalima45@gmail.com',MD5('nFICercLEgan'));
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Levi João Felipe Melo da Cunha','85766346000', '1992-03-22','ljfmcunha@gmail.com','MEnGAZEintIc');
+values ('Levi João Felipe Melo da Cunha','85766346000', '1992-03-22','ljfmcunha@gmail.com', MD5('MEnGAZEintIc'));
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Ivo Arouca Parente','09681826078', '1960-10-25','ivo@gmail.com','AIsHALYPoeSM');
+values ('Ivo Arouca Parente','09681826078', '1960-10-25','ivo@gmail.com', MD5('AIsHALYPoeSM'));
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Fernanda Damasceno Torres','62777859078', '1975-05-08','torresnanda67@gmail.com','ToUrKBorYsEo');
+values ('Fernanda Damasceno Torres','62777859078', '1975-05-08','torresnanda67@gmail.com', MD5('ToUrKBorYsEo'));
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Danilo Almeida Lima','13421155038', '1997-02-02','danAlmeida@outlook.com','AmblERpHYsto');
+values ('Danilo Almeida Lima','13421155038', '1997-02-02','danAlmeida@outlook.com', MD5('AmblERpHYsto'));
 
 insert into cliente (nome_cliente,cpf,data_nasc,email,senha)
-values ('Renato Schneider Sanches','70564357081', '1947-09-3','renato@gmail.com','aira5AhGhohS');
+values ('Renato Schneider Sanches','70564357081', '1947-09-3','renato@gmail.com', MD5('aira5AhGhohS')); 
 
 
 -- ESTADO
@@ -638,19 +638,63 @@ insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(7,7
 insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(8,8,1);
 insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(9,9,1);
 insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(10,10,1);
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(10,11,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(11,11,1);
 
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(1,2,0);
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(2,3,0);
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(3,4,0);
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(4,5,0);
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(5,6,0);
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(6,7,0);
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(7,8,0);
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(8,9,0);
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(9,10,0);
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(10,12,0);
-insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(10,1,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(12,12,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(13,13,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(14,14,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(15,15,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(16,16,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(17,17,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(18,18,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(19,19,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(20,20,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(21,21,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(22,22,1);
+
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(23,23,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(24,24,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(25,25,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(26,26,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(27,27,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(28,28,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(29,29,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(30,30,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(31,31,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(32,32,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(33,33,1);
+
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(34,34,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(35,35,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(36,36,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(37,37,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(38,38,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(39,39,1);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(40,40,1);
+
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(1,41,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(2,42,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(3,43,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(4,44,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(5,45,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(6,46,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(7,47,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(8,48,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(9,49,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(10,50,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(11,51,0);
+
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(12,52,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(13,53,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(14,54,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(15,55,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(16,1,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(17,2,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(18,8,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(19,9,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(20,3,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(21,4,0);
+insert into endereco_cliente (cod_cliente,cod_endereco,flag_endereco) values(22,5,0);
 
 
 -- NATUREZA OPERACAO
@@ -680,68 +724,74 @@ insert into produtos_relacionados (cod_produto) values (9);
 insert into produtos_relacionados (cod_produto) values (10);
 
 
+-- ITEM PEDIDO
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (1, 1, 2);
+
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (1, 2, 2);
+
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (2, 2, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (3, 3, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (4, 4, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (5, 5, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (6, 6, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (7, 7, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (8, 8, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (9, 9, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (10, 10, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (11, 11, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (12, 12, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (13, 13, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (14, 14, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (15, 15, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (16, 16, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (17, 17, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (18, 18, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (19, 19, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (20, 20, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (21, 21, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (22, 22, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (23, 23, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (24, 24, 2);
+
+
 -- PEDIDO
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 1, 1, 1, 1, 1);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (2, 2, 2, 1, 2, 1);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 3, 3, 2, 3, 2);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (2, 4, 4, 2, 4, 2);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 5, 5, 3, 5, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (2, 6, 6, 3, 6, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 7, 7, 4, 7, 1);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (2, 8, 8, 4, 8, 1);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 9, 9, 5, 9, 2);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (2, 10, 10, 5, 10, 2);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 1, 1, 3, 11, 1);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 2, 2, 3, 12, 2);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status,cod_operacao,  cod_forma_pagamento) values (1, 3, 3, 3, 13, 2);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 4, 4, 3, 14, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 5, 5, 3, 15, 2);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 6, 6, 3, 16, 1);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 7, 7, 3, 17, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 8, 8, 3, 18, 1);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 9, 9, 3, 19, 2);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 10, 10, 3, 20, 2);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 11, 1, 1, 21, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 12, 2, 1, 22, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (2, 1, 3, 2, 23, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 4, 4, 5, 24, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 5, 5, 4, 25, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 6, 6, 4, 26, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (2, 7, 7, 4, 27, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (2, 8, 8, 2, 28, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (1, 9, 9, 1, 29, 3);
-insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento) values (2, 2, 10, 3, 30, 3);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 1, 1, 1, 1, 1, '2022-01-01', 1);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (2, 2, 2, 1, 2, 1, '2022-01-01', 2);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 3, 3, 2, 3, 2, '2022-01-01', 3);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (2, 4, 4, 2, 4, 2, '2022-01-02', 4);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 5, 5, 3, 5, 3, '2022-01-02', 5);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (2, 6, 6, 3, 6, 3, '2022-01-02', 6);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 7, 7, 4, 7, 1, '2022-01-03', 7);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (2, 8, 8, 4, 8, 1, '2022-01-03', 8);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 9, 9, 5, 9, 2, '2022-01-04', 9);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (2, 10, 10, 5, 10, 2, '2022-01-05', 10);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 1, 1, 3, 11, 1, '2022-01-05', 11);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 2, 2, 3, 12, 2, '2022-01-05', 12);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 3, 3, 3, 13, 2, '2022-01-06', 13);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 4, 4, 3, 14, 3, '2022-01-06', 14);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 5, 5, 3, 15, 2, '2022-01-07', 15);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 6, 6, 3, 16, 1, '2022-01-07', 16);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 7, 7, 3, 17, 3, '2022-01-08', 17);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 8, 8, 3, 18, 1, '2022-01-08', 18);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 9, 9, 3, 19, 2, '2022-01-09', 19);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 10, 10, 3, 20, 2, '2022-01-09', 20);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 11, 1, 1, 21, 3, '2022-01-10', 21);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 12, 2, 1, 22, 3, '2022-01-10', 22);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (2, 1, 3, 2, 23, 3, '2022-01-11', 23);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 4, 4, 5, 24, 3, '2022-01-11', 24);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 5, 5, 4, 25, 3, '2022-01-12', 1);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 6, 6, 4, 26, 3, '2022-01-12', 2);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (2, 7, 7, 4, 27, 3, '2022-01-12', 3);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (2, 8, 8, 2, 28, 3, '2022-01-13', 4);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (1, 9, 9, 1, 29, 3, '2022-01-13', 5);
+insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, data_pedido, cod_item_pedido) values (2, 2, 10, 3, 30, 3, '2022-01-13', 6);
 
 
 
 -- insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, cod_item_pedido) values (2, 2, 10, 3, 30, 3, 1);
 -- insert into pedido (cod_frete, cod_endereco, cod_cliente, cod_status, cod_operacao, cod_forma_pagamento, cod_item_pedido) values (2, 3, 2, 3, 30, 3, 2);
 
--- ITEM PEDIDO
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (1, 1, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (2, 2, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (3, 3, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (4, 4, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (5, 5, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (6, 6, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (7, 7, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (8, 8, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (9, 9, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (10, 10, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (11, 11, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (12, 12, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (13, 13, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (14, 14, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (15, 15, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (16, 16, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (17, 17, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (18, 18, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (19, 19, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (20, 20, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (21, 21, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (22, 22, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (23, 23, 2);
-insert into item_pedido (cod_pedido, cod_produto, quantidade) values (24, 24, 2);
+
 
 
 -- DESTAQUES
@@ -967,76 +1017,102 @@ values
 9, 9, 2, '83986043000115','Pimpolhos');
 
 
+-- LOGIN
+insert into login (usuario, senha) values ("mateus", "pimpolhos");
+insert into login (usuario, senha) values ("kaique", "pimpolhos");
+insert into login (usuario, senha) values ("kathleen", "pimpolhos");
+insert into login (usuario, senha) values ("isabella", "pimpolhos");
+insert into login (usuario, senha) values ("gabriel", "pimpolhos");
 
 
 
-
-
+select * from login;
 select * from produto;
 select * from cliente;
 select * from nf_e;
 select * from item_nf;
 select * from pedido;
 select * from endereco_cliente;
-
-
-
 select * from item_pedido;
-select cod_produto from item_pedido where cod_produto = 1;
-
-
-
-
-
-select item_pedido.cod_produto, produto.nome, produto.preco, item_pedido.quantidade from item_pedido
-inner join pedido on pedido.cod_pedido = item_pedido.cod_pedido 
-inner join produto on produto.cod_produto = item_pedido.cod_produto; 
-
-select pedido.cod_pedido, c.nome_cliente, e.cep, e.nome_cidade, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao_estado, f.descricao_frete, f.valor_frete, fp.descricao_forma_pagamento, sp.descricao_status_pedido, ec.flag_endereco from pedido
-inner join cliente c on c.cod_cliente = pedido.cod_cliente
-inner join endereco e on e.cod_endereco = pedido.cod_endereco
-inner join estado e2 on e2.cod_estado = e.cod_estado
-inner join frete f on f.cod_frete = pedido.cod_frete 
-inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento
-inner join status_pedido sp on sp.cod_status = pedido.cod_status 
-inner join endereco_cliente ec on ec.cod_endereco = e.cod_endereco where ec.flag_endereco = 1 ORDER BY cod_pedido ASC
-;
-
-
-select item_pedido.cod_produto, produto.nome, produto.preco, item_pedido.quantidade, null, null, null, null, null, null, null, null, null, null, null from item_pedido
-inner join pedido on pedido.cod_pedido = item_pedido.cod_pedido 
-inner join produto on produto.cod_produto = item_pedido.cod_produto union all
-select pedido.cod_pedido, c.nome_cliente, e.cep, e.nome_cidade, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao, f.descricao, f.valor_frete, fp.descricao, sp.descricao, ec.flag_endereco from pedido
-inner join cliente c on c.cod_cliente = pedido.cod_cliente
-inner join endereco e on e.cod_endereco = pedido.cod_endereco
-inner join estado e2 on e2.cod_estado = e.cod_estado
-inner join frete f on f.cod_frete = pedido.cod_frete 
-inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento
-inner join status_pedido sp on sp.cod_status = pedido.cod_status 
-inner join endereco_cliente ec on ec.cod_endereco = e.cod_endereco where ec.flag_endereco = 1;
-
-
-select ip.cod_produto, p2.nome, p2.preco, ip.quantidade, p.cod_pedido, c.nome_cliente, e.cep, e.nome_cidade, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao, f.descricao, f.valor_frete, fp.descricao, sp.descricao, ec.flag_endereco from pedido
-inner join item_pedido ip on ip.cod_produto = produto.cod_produto 
-inner join pedido p on p.cod_pedido = ip.cod_pedido 
-inner join produto p2 on p2.cod_produto = ip.cod_produto
-inner join cliente c on c.cod_cliente = pedido.cod_cliente
-inner join endereco e on e.cod_endereco = pedido.cod_endereco
-inner join estado e2 on e2.cod_estado = e.cod_estado
-inner join frete f on f.cod_frete = pedido.cod_frete 
-inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento
-inner join status_pedido sp on sp.cod_status = pedido.cod_status
-inner join endereco_cliente ec on ec.cod_endereco = e.cod_endereco where ec.flag_endereco = 1;
-
-
-
 select * from pedido;
 select * from item_pedido ip;
 select * from frete;
 select * from produto;
+select * from cliente;
 
-select descricao from frete;
 
-delete from pedido where cod_pedido = 1;
+
+-- pedido com calculo
+select pedido.cod_pedido, c.nome_cliente, pedido.data_pedido, ip.quantidade, f.descricao_frete, f.valor_frete, sp.descricao_status_pedido, (ip.quantidade * p.preco) + f.valor_frete as valor_total from pedido
+inner join cliente c on c.cod_cliente = pedido.cod_cliente
+inner join item_pedido ip on ip.cod_item_pedido = pedido.cod_item_pedido
+inner join frete f on f.cod_frete = pedido.cod_frete 
+inner join status_pedido sp on sp.cod_status = pedido.cod_status
+inner join produto p on p.cod_produto = ip.cod_produto;
+
+
+-- detalhe do pedido com calculo
+select pedido.cod_pedido, pedido.data_pedido, c.nome_cliente, e.nome_cidade, e.cep, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao_estado, f.descricao_frete, f.valor_frete, sp.descricao_status_pedido, fp.descricao_forma_pagamento, p.nome, p.preco, m.nome_marca, ip.quantidade, (ip.quantidade * p.preco) + f.valor_frete as valor_total from pedido 
+inner join cliente c on c.cod_cliente = pedido.cod_cliente 
+inner join endereco e on e.cod_endereco = pedido.cod_endereco 
+inner join estado e2 on e2.cod_estado = e.cod_estado 
+inner join frete f on f.cod_frete = pedido.cod_frete 
+inner join status_pedido sp on sp.cod_status = pedido.cod_status 
+inner join forma_pagamento fp on fp.cod_forma_pagamento = pedido.cod_forma_pagamento 
+inner join item_pedido ip on ip.cod_item_pedido = pedido.cod_item_pedido
+inner join produto p on p.cod_produto = ip.cod_produto 
+inner join marca m on m.cod_marca = p.cod_marca where cod_pedido = 1
+ORDER BY cod_pedido ASC
+;
+
+
+-- cliente
+select cliente.cod_cliente ,cliente.nome_cliente, cliente.cpf,cliente.data_nasc ,cliente.email from cliente;
+
+
+-- detalhe cliente
+select cliente.cod_cliente ,cliente.nome_cliente, cliente.cpf,cliente.data_nasc ,cliente.email, e.nome_rua, e.numero_casa,e.bairro,e.complemento,e.ponto_referencia, e.cep , e.nome_cidade,e2.descricao_estado,c.nome_titular,b.descricao_bandeira,t.ddd,t.numero_telefone,tt.descricao_telefone from cliente 
+inner join cliente_telefone ct ON ct.cod_cliente = cliente.cod_cliente 
+inner join telefone t on t.cod_telefone = ct.cod_telefone 
+inner join tipo_telefone tt on tt.cod_tipoTelefone = t.cod_tipoTelefone 
+inner join cartao c on c.cod_cliente = cliente.cod_cliente 
+inner join bandeira b on b.cod_bandeira = c.cod_bandeira 
+inner join endereco_cliente ec on ec.cod_cliente = cliente.cod_cliente
+inner join endereco e on e.cod_endereco = ec.cod_endereco
+inner join estado e2 on e2.cod_estado = e.cod_estado where ec.flag_endereco = 1
+order by cod_cliente asc ;
+
+
+
+-- contador da home
+select count(cod_cliente) from cliente;
+select count(cod_pedido) from pedido;
+select count(cod_produto) from produto;
+
+
+
+-- clientes com endereços ativos
+select cliente.cod_cliente ,cliente.nome_cliente, cliente.cpf,cliente.data_nasc ,cliente.email,cliente.senha,ec.cod_endereco,e.nome_rua, e.numero_casa, e.bairro,e.complemento,e.ponto_referencia, e.cep , e.nome_cidade,e2.descricao_estado from cliente
+inner join endereco_cliente ec on ec.cod_cliente = cliente.cod_cliente
+inner join endereco e on e.cod_endereco = ec.cod_endereco
+inner join estado e2  on e2.cod_estado  =  e.cod_estado where ec.flag_endereco = 1
+;
+
+select cliente.cod_cliente ,cliente.nome_cliente, cliente.cpf,cliente.data_nasc ,cliente.email,cliente.senha ,ec.cod_endereco , e.nome_rua, e.numero_casa, e.bairro,e.complemento,e.ponto_referencia, e.cep , e.nome_cidade,e2.descricao_estado,ec2.flag_endereco from cliente
+inner join endereco_cliente ec on ec.cod_cliente = cliente.cod_cliente
+inner join endereco e on e.cod_endereco = ec.cod_endereco 
+inner join estado e2  on e2.cod_estado  = e.cod_estado 
+inner join endereco_cliente ec2 on ec.cod_endereco = e.cod_endereco where ec.flag_endereco = 1;
+
+
+-- produtos
+select produto.cod_produto, produto.nome, produto.preco, produto.sexo, produto.dimensao, produto.material, produto.peso, produto.conteudo_produto , f.nome_fornecedor, c.nome_categoria, produto.img_produto, m.nome_marca from produto
+inner join fornecedor f on f.cod_fornecedor = produto.cod_fornecedor 
+inner join categoria c on c.cod_categoria = produto.cod_categoria 
+inner join marca m on m.cod_marca = produto.cod_marca;
+
+
+
+
 
 
