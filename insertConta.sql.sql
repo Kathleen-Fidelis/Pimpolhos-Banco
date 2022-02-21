@@ -1026,21 +1026,6 @@ insert into login (usuario, senha) values ("gabriel", "pimpolhos");
 
 
 
-select * from login;
-select * from produto;
-select * from cliente;
-select * from nf_e;
-select * from item_nf;
-select * from pedido;
-select * from endereco_cliente;
-select * from item_pedido;
-select * from pedido;
-select * from item_pedido ip;
-select * from frete;
-select * from produto;
-select * from cliente;
-
-
 
 -- pedido com calculo
 select pedido.cod_pedido, c.nome_cliente, pedido.data_pedido, ip.quantidade, f.descricao_frete, f.valor_frete, sp.descricao_status_pedido, (ip.quantidade * p.preco) + f.valor_frete as valor_total from pedido
@@ -1114,5 +1099,48 @@ inner join marca m on m.cod_marca = produto.cod_marca;
 
 
 
+delete estoque from estoque
+inner join produto p on p.cod_produto = estoque.cod_produto 
+where  p.cod_categoria = 1 ;
 
 
+delete favoritos from favoritos 
+inner join produto p on p.cod_produto = favoritos.cod_produto 
+where p.cod_categoria = 1;
+
+delete nf_e from nf_e 
+inner join produto p on p.cod_produto = nf_e.cod_produto 
+where p.cod_categoria = 1;
+
+-- delete nf_e from nf_e
+-- inner join produto p on p.cod_produto = item_nf.cod_produto 
+-- where p.cod_categoria = 1;
+
+-- delete item_nf from item_nf 
+-- inner join produto p on p.cod_produto = item_nf.cod_produto 
+-- where p.cod_categoria = 1;
+
+-- delete produto from produto 
+-- inner join categoria c on c.cod_categoria = produto.cod_categoria 
+-- where c.cod_categoria = 1;
+
+delete from produto where cod_fornecedor = 1;
+
+select * from estoque;
+select * from produto;
+select * from favoritos;
+select * from login;
+select * from produto;
+select * from cliente;
+select * from nf_e;
+select * from item_nf;
+select * from pedido;
+select * from endereco_cliente;
+select * from item_pedido;
+select * from pedido;
+select * from item_pedido ip;
+select * from frete;
+select * from produto;
+select * from cliente;
+select * from marca;
+select * from fornecedor;
