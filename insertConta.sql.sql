@@ -563,7 +563,6 @@ insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titul
 values (25, 3, '5281196662808310', 'Camila Ribeiro', '2030-01-22', '351', 2, 8);
 insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
 values (26, 3, '5211758875625470', 'Luciano Gonçalves', '2023-01-05', '523', 2, 8);
-
 insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
 values (27, 3, '5503258753368898', 'Theo Thomas Mateus', "2023/06/04", '378', 1, 30);
 insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
@@ -572,6 +571,73 @@ insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titul
 values (29, 3, '4485910695980686', 'Bernardo Martin', "2023/06/05", '346', 2, 39);
 insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
 values (30, 3, '5314684687583139', 'Emmanuel Prucho', "2023/06/01", '396', 1, 37);
+
+
+
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (31, 3, '5494235616812883', 'Arthur Ginjeira', '2023-01-05', '600', 2, 9);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (32, 3, '5336112734463372', 'Paula Mena', '2023-09-30', '601', 2, 10);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (33, 3, '5254123244013142', 'Dária Rebocho', '2023-10-14', '602', 2, 11);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (34, 3, '5487822225511862', 'Matthias Azeredo', '2023-10-24', '603', 2, 12);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (35, 3, '4684313472846841', 'Joice Morgado', '2023-07-04', '604', 2, 13);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (36, 3, '5512914423716457', 'Artyom Carneiro', '2023-04-19', '605', 2, 14);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (37, 3, '5041755173234955', 'Bruno Oleiro', '2023-06-07', '606', 2, 15);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (38, 3, '5302891470215811', 'Geovanna Curado', '2023-04-22', '607', 2, 16);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (39, 3, '6363685614281653', 'Lavínia Parente', '2023-12-04', '608', 2, 17);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (40, 3, '6512458060565114', 'Gina Mateus', '2023-04-24', '609', 2, 18);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (41, 3, '6363687583876679', 'Natalia Severo', '2023-01-10', '610', 2, 19);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (42, 3, '5436608636117288', 'Natalia Severo', '2023-11-04', '611', 2, 20);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (43, 3, '3598348714448862', 'Natalia Severo', '2023-11-28', '612', 2, 21);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (44, 3, '5196798461394233', 'Natalia Severo', '2023-04-26', '613', 2, 22);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (45, 3, '4389358367342735', 'Natalia Severo', '2023-04-26', '614', 2, 23);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (46, 3, '6011809713809513', 'Natalia Severo', '2023-06-25', '615', 2, 24);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (47, 3, '5285272057731622', 'Natalia Severo', '2023-11-16', '616', 2, 25);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (48, 3, '5246562285122760', 'Natalia Severo', '2023-08-28', '617', 2, 26);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (49, 3, '5562241731773882', 'Natalia Severo', '2023-08-16', '618', 2, 27);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (50, 3, '4389350947512531', 'Natalia Severo', '2023-10-13', '619', 2, 28);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (51, 3, '4514165241583030', 'Natalia Severo', '2023-10-18', '620', 2, 29);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (52, 3, '5041754197698162', 'Natalia Severo', '2023-11-03', '621', 2, 30);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (53, 3, '4389358921888751', 'Natalia Severo', '2023-11-19', '622', 2, 31);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (54, 3, '6363683142192682', 'Natalia Severo', '2023-03-04', '623', 2, 32);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (55, 3, '4389359412371331', 'Natalia Severo', '2023-03-23', '624', 2, 33);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (56, 3, '5387305224629720', 'Natalia Severo', '2023-03-23', '625', 2, 34);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (57, 3, '6225245180410851', 'Natalia Severo', '2023-06-07', '626', 2, 35);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (58, 3, '5382222135631189', 'Natalia Severo', '2023-12-01', '627', 2, 36);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (59, 3, '4514163424673884', 'Natalia Severo', '2023-05-19', '628', 2, 37);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (60, 3, '5257173834726550', 'Natalia Severo', '2023-04-25', '629', 2, 38);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (61, 3, '4389355645247124', 'Natalia Severo', '2023-08-02', '630', 2, 39);
+insert into cartao (cod_operacao, cod_forma_pagamento, numero_cartao, nome_titular, validade, cod_seguranca, cod_bandeira, cod_cliente)
+values (62, 3, '6227317364604506', 'Natalia Severo', '2023-08-03', '631', 2, 40);
 
 
 -- BOLETO
@@ -725,33 +791,33 @@ insert into produtos_relacionados (cod_produto) values (10);
 
 
 -- ITEM PEDIDO
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (1, 1, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (1, 1, 2, 1);
 
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (1, 2, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (1, 2, 2, 0);
 
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (2, 2, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (3, 3, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (4, 4, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (5, 5, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (6, 6, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (7, 7, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (8, 8, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (9, 9, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (10, 10, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (11, 11, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (12, 12, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (13, 13, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (14, 14, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (15, 15, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (16, 16, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (17, 17, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (18, 18, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (19, 19, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (20, 20, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (21, 21, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (22, 22, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (23, 23, 2);
-insert into item_pedido (cod_item_pedido, cod_produto, quantidade) values (24, 24, 2);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (2, 2, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (3, 3, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (4, 4, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (5, 5, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (6, 6, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (7, 7, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (8, 8, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (9, 9, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (10, 10, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (11, 11, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (12, 12, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (13, 13, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (14, 14, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (15, 15, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (16, 16, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (17, 17, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (18, 18, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (19, 19, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (20, 20, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (21, 21, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (22, 22, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (23, 23, 2, 1);
+insert into item_pedido (cod_item_pedido, cod_produto, quantidade, principal) values (24, 24, 2, 1);
 
 
 -- PEDIDO
@@ -843,6 +909,40 @@ insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(67,998515635
 insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(44,999908146,2);
 insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(97,993969148,2);
 
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(16,995931738,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(17,975634728,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(15,972636171,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(15,989263814,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(15,982415356,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(15,998833520,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(19,999618954,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(19,999167148,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(19,987831173,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(19,983428811,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(19,984832283,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(19,995486638,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(16,973020868,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(16,997480641,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(16,981161665,2); 
+
+
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(11,969230904,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(11,980323922,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(11,982222377,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(11,987229883,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(13,981747227,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(13,969667695,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(13,980821036,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(13,982683265,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(13,976536593,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(13,987737428,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(14,982569148,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(14,994886772,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(14,976385718,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(14,981469368,2);
+insert into telefone (ddd,numero_telefone ,cod_tipoTelefone) values(14,993687673,2);
+
+
 -- TELEFONE CLIENTE
 insert into cliente_telefone (cod_cliente, cod_telefone) values (1, 10);
 insert into cliente_telefone (cod_cliente, cod_telefone) values (2, 9);
@@ -854,6 +954,37 @@ insert into cliente_telefone (cod_cliente, cod_telefone) values (7, 4);
 insert into cliente_telefone (cod_cliente, cod_telefone) values (8, 3);
 insert into cliente_telefone (cod_cliente, cod_telefone) values (9, 2);
 insert into cliente_telefone (cod_cliente, cod_telefone) values (10, 1);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (11, 11);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (12, 12);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (13, 13);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (14, 14);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (15, 15);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (16, 16);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (17, 17);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (18, 18);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (19, 19);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (20, 20);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (21, 21);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (22, 22);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (23, 23);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (24, 24);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (25, 25);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (26, 26);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (27, 27);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (28, 28);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (29, 29);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (30, 30);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (31, 31);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (32, 32);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (33, 33);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (34, 34);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (35, 35);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (36, 36);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (37, 37);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (38, 38);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (39, 39);
+insert into cliente_telefone (cod_cliente, cod_telefone) values (40, 40);
+
 
 -- ITEM NOTA
 insert into item_nf (cod_produto, cod_item_nota, valor_unitario, valor_total, quantidade, valor_icms_item) 
@@ -1018,26 +1149,34 @@ values
 
 
 -- LOGIN
-insert into login (usuario, senha) values ("mateus", "pimpolhos");
-insert into login (usuario, senha) values ("kaique", "pimpolhos");
-insert into login (usuario, senha) values ("kathleen", "pimpolhos");
-insert into login (usuario, senha) values ("isabella", "pimpolhos");
-insert into login (usuario, senha) values ("gabriel", "pimpolhos");
+insert into login (nome, usuario, senha) values ("Mateus Reis", "mateus", "pimpolhos");
+insert into login (nome, usuario, senha) values ("Kaique Araujo", "kaique",  "pimpolhos");
+insert into login (nome, usuario, senha) values ("Kathleen Fidelis", "kathleen",  "pimpolhos");
+insert into login (nome, usuario, senha) values ("Isabella Botasso","isabella", "pimpolhos");
+insert into login (nome, usuario, senha) values ("Gabriel Gonzaga", "gabriel",  "pimpolhos");
 
 
-
+select * from pedido;
 
 -- pedido com calculo
-select pedido.cod_pedido, c.nome_cliente, pedido.data_pedido, ip.quantidade, f.descricao_frete, f.valor_frete, sp.descricao_status_pedido, (ip.quantidade * p.preco) + f.valor_frete as valor_total from pedido
+select pedido.cod_pedido, c.nome_cliente, pedido.data_pedido, sp.descricao_status_pedido, (ip.quantidade * p.preco) + f.valor_frete as valor_total from pedido
 inner join cliente c on c.cod_cliente = pedido.cod_cliente
 inner join item_pedido ip on ip.cod_item_pedido = pedido.cod_item_pedido
 inner join frete f on f.cod_frete = pedido.cod_frete 
 inner join status_pedido sp on sp.cod_status = pedido.cod_status
-inner join produto p on p.cod_produto = ip.cod_produto;
+inner join produto p on p.cod_produto = ip.cod_produto where ip.principal = 1;
 
+-- pedidos recentes
+select p.cod_pedido, fp.descricao_forma_pagamento, sp.descricao_status_pedido from pedido p 
+inner join forma_pagamento fp on fp.cod_forma_pagamento = p.cod_forma_pagamento 
+inner join status_pedido sp on sp.cod_status = p.cod_status 
+where data_pedido between str_to_date('2022-01-01', '%Y-%m-%d') and str_to_date('2022-01-05', '%Y-%m-%d');
+
+-- select cod_item_pedido from item_pedido;
+-- select distinct cod_item_pedido from item_pedido;
 
 -- detalhe do pedido com calculo
-select pedido.cod_pedido, pedido.data_pedido, c.nome_cliente, e.nome_cidade, e.cep, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao_estado, f.descricao_frete, f.valor_frete, sp.descricao_status_pedido, fp.descricao_forma_pagamento, p.nome, p.preco, m.nome_marca, ip.quantidade, (ip.quantidade * p.preco) + f.valor_frete as valor_total from pedido 
+select pedido.cod_pedido, pedido.data_pedido, c.nome_cliente, e.nome_cidade, e.cep, e.nome_rua, e.numero_casa, e.complemento, e.bairro, e.ponto_referencia, e2.descricao_estado, f.descricao_frete, f.valor_frete, sp.descricao_status_pedido, fp.descricao_forma_pagamento, p.nome, p.preco, m.nome_marca, ip.quantidade, (ip.quantidade * p.preco) + f.valor_frete as valor_total, p.cod_produto from pedido 
 inner join cliente c on c.cod_cliente = pedido.cod_cliente 
 inner join endereco e on e.cod_endereco = pedido.cod_endereco 
 inner join estado e2 on e2.cod_estado = e.cod_estado 
@@ -1064,15 +1203,15 @@ inner join cartao c on c.cod_cliente = cliente.cod_cliente
 inner join bandeira b on b.cod_bandeira = c.cod_bandeira 
 inner join endereco_cliente ec on ec.cod_cliente = cliente.cod_cliente
 inner join endereco e on e.cod_endereco = ec.cod_endereco
-inner join estado e2 on e2.cod_estado = e.cod_estado where ec.flag_endereco = 1
+inner join estado e2 on e2.cod_estado = e.cod_estado where cliente.cod_cliente = 9
 order by cod_cliente asc ;
-
 
 
 -- contador da home
 select count(cod_cliente) from cliente;
 select count(cod_pedido) from pedido;
 select count(cod_produto) from produto;
+select count(cod_usuario) from login;
 
 
 
@@ -1099,32 +1238,20 @@ inner join marca m on m.cod_marca = produto.cod_marca;
 
 
 
-delete estoque from estoque
-inner join produto p on p.cod_produto = estoque.cod_produto 
-where  p.cod_categoria = 1 ;
+-- delete estoque from estoque
+-- inner join produto p on p.cod_produto = estoque.cod_produto 
+-- where  p.cod_categoria = 1 ;
 
 
-delete favoritos from favoritos 
-inner join produto p on p.cod_produto = favoritos.cod_produto 
-where p.cod_categoria = 1;
-
-delete nf_e from nf_e 
-inner join produto p on p.cod_produto = nf_e.cod_produto 
-where p.cod_categoria = 1;
-
--- delete nf_e from nf_e
--- inner join produto p on p.cod_produto = item_nf.cod_produto 
+-- delete favoritos from favoritos 
+-- inner join produto p on p.cod_produto = favoritos.cod_produto 
 -- where p.cod_categoria = 1;
 
--- delete item_nf from item_nf 
--- inner join produto p on p.cod_produto = item_nf.cod_produto 
+-- delete nf_e from nf_e 
+-- inner join produto p on p.cod_produto = nf_e.cod_produto 
 -- where p.cod_categoria = 1;
 
--- delete produto from produto 
--- inner join categoria c on c.cod_categoria = produto.cod_categoria 
--- where c.cod_categoria = 1;
 
-delete from produto where cod_fornecedor = 1;
 
 select * from estoque;
 select * from produto;
@@ -1144,3 +1271,25 @@ select * from produto;
 select * from cliente;
 select * from marca;
 select * from fornecedor;
+select * from categoria;
+
+select * from categoria;
+select * from fornecedor;
+
+
+
+
+
+
+
+select cliente.cod_cliente,cliente.nome_cliente, cliente.cpf,cliente.data_nasc,cliente.email, e.nome_rua, e.numero_casa, e.bairro, e.complemento, e.ponto_referencia, e.cep , e.nome_cidade, e2.descricao_estado, c.nome_titular, b.descricao_bandeira, t.ddd, t.numero_telefone, tt.descricao_telefone from cliente
+inner join cliente_telefone ct on ct.cod_cliente = cliente.cod_cliente
+inner join telefone t on t.cod_telefone = ct.cod_telefone 
+inner join tipo_telefone tt on tt.cod_tipoTelefone = t.cod_tipoTelefone
+inner join cartao c on c.cod_cliente = cliente.cod_cliente
+inner join bandeira b on b.cod_bandeira = c.cod_bandeira
+inner join endereco_cliente ec on ec.cod_cliente = cliente.cod_cliente
+inner join endereco e on e.cod_endereco = ec.cod_endereco
+inner join estado e2 on e2.cod_estado = e.cod_estado 
+order by cod_cliente asc 
+
